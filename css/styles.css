@@ -90,11 +90,8 @@ button {
 .review {
   display: flex;
   align-items: center;
-  margin: 11px auto 66px 0px;
-}
-
-.stars {
-  margin-right: 5px;
+  column-gap: 5px;
+  margin-top: 11px;
 }
 
 .review-quantity {
@@ -121,8 +118,9 @@ button {
   display: flex;
   align-items: center;
   column-gap: 20px;
+  margin-bottom: 62px;
 }
-.cart {
+.product-button {
   display: flex;
   justify-content: space-between;
 }
@@ -135,7 +133,6 @@ button {
   border-radius: 10px;
   font-weight: 600;
   font-size: 20px;
-  margin: 0px 20px 26px -59px;
 }
 .favorite {
   width: 91px;
@@ -150,5 +147,5 @@ button {
   border-radius: 10px;
   font-weight: 600;
   font-size: 20px;
-  margin-bottom: 0px;
+  margin-top: 26px;
 }
